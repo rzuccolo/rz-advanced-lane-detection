@@ -60,13 +60,13 @@ The goals/ steps of this project are the following:
 
 
 Playground using Jupyter notebooks for all stages of the projects can be found here:
-**[Playground Jupyter Notebooks](https://github.com/rzuccolo/rz-advanced-lane-detection)**
+**[github repository](https://github.com/rzuccolo/rz-advanced-lane-detection)**
 
 
 
 ### 2. Functional codes:
 
-#### Camera calibration:
+#### 2.1 Camera calibration:
 Open the **camera_calibration.py** and set the proper output directory (code lines 8-17).
 
 Default configuration will:
@@ -78,7 +78,7 @@ Execute the script as follow:
 python camera_calibration.py
 ```
 
-#### Perspective Transform Matrices:
+#### 2.2 Perspective Transform Matrices:
 Open the **load_parameters.py** and set the proper income directories (code lines 5-11).
 
 Default configuration will:
@@ -97,7 +97,7 @@ python perspective_transform.py
 Modify the trapezoid ratios (code lines 28-31) until you are happy with the output bird's-eye image 
 
 
-#### Video Pipeline:
+#### 2.3 Video Pipeline:
 Open the **load_parameters.py** and set the proper income directories (code lines 5-11).
 
 Default configuration will:
@@ -309,7 +309,7 @@ We have 2nd order polyfit, so we have 3 coefficients. **The tolerances used are:
 Next, we'll compute the radius of curvature of the fit and the car offset position with respect to lane center.
 The radius of curvature is defined as follow:
 
-[By M. Bourne](http://www.intmath.com/applications-differentiation/8-radius-curvature.php)
+[Radius of Curvature - M. Bourne](http://www.intmath.com/applications-differentiation/8-radius-curvature.php)
 
 ![alt text][image12]
 
@@ -354,8 +354,8 @@ The good or bad frame selection is already implemented as described above. For t
 
 ### 5. Road Test Videos!
 
-**[Annotated Project Video](https://vimeo.com/211246515)** Click on this link to watch the annotations for the project video.
-**[Annotated Challenge Video](https://vimeo.com/211246891)** Click on this link to watch the annotations for the challenge
+* **[Annotated Project Video](https://vimeo.com/211246515)** Click on this link to watch the annotations for the project video.
+* **[Annotated Challenge Video](https://vimeo.com/211246891)** Click on this link to watch the annotations for the challenge
 
 
 ---

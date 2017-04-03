@@ -24,10 +24,13 @@ The goals/ steps of this project are the following:
 * Warp the detected lane boundaries back onto the original image.
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 
-[//]: # (Videos References)
+[//]: # (Images References)
 
-[video1]: ./output_images/annotated_project_video.mp4 "Project Video"
-[video2]: ./output_images/annotated_challenge_video.mp4 "Challenge Video"
+[image1]: ./my_images/15-image-pipeline-readme.png "Finding Lane Line"
+
+
+
+![alt text][image1] 
 
 
 ---
@@ -42,15 +45,9 @@ The goals/ steps of this project are the following:
 * **warp_transformer.py** contains the functions used to color transform, warp and create the binary images.
 * **line.py** defines a class to keep track of lane line detection. This information helps the main pipeline code to decide if the current image frame is good or bad.
 * **main.py** contains the script used to run the video pipeline and create the final annotated video.
+* **[Annotated Project Video](https://vimeo.com/211246515)** Click on this link to watch the annotations for the project video.
+* **[Annotated Challenge Video](https://vimeo.com/211246891)** Click on this link to watch the annotations for the challenge video!
 * **writeup_report.md** is the summary report of the results
-
-Annotations for the project video:
-
-![alt text][video1] 
-
-Annotations for the Challenge video:
-
-![alt text][video2] 
 
 
 
